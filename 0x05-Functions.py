@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
 def sumar(sumando1,sumando2):
-    print("Resultado de la suma:\n",sumando1 + sumando2)
+    print("Resultado de la suma: \n",sumando1 + sumando2)
 def restar(minuendo,sustraendo):
     print("Resultado de la resta: \n",minuendo - sustraendo)  
 def multiplicar(coeficiente1,coeficiente2):
     print("Resultado de la multiplicación: \n",coeficiente1 * coeficiente2)
 def potenciar(base,exponente):
+#La operación de cero elevado a un número negativo no esta determinada, por lo que se imprime error. 
     if (base==0 and exponente < 0):
         print("Error \n")
     else:
